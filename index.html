@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Keywords" content="关键词,关键词" />
+    <meta name="description" content="描述" />
+    <title>锤子官网-移动端</title>
+
+    <link rel="shortcut icon" href="images/icon/shutcut.ico" />
+    <link rel="stylesheet" href="css/public.css" type='text/css'>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css" type='text/css'>
+    <link rel="stylesheet" href="css/index.css" type='text/css'>
+
+    <!-- 移动端适配 -->
+    <script>
+        var html = document.querySelector('html');
+        changeRem();
+        window.addEventListener('resize',changeRem);
+        function changeRem() {
+            var width = html.getBoundingClientRect().width;
+            //console.log( width );
+            html.style.fontSize = width/10+ 'px';
+        }
+
+    </script>
+</head>
+<body>
+
+    <!-- 开始  锤子官网 -->
+    <div class='smartisan'>
+        <!-- 开始  网页头部 -->
+        <header>
+            <h1 class="h-logo"></h1>
+            <div class="h-nav"></div>
+        </header>
+
+        <!-- 开始  网页身体 -->
+        <div class="body">
+            <section>
+                <div class="swiper-container swiper-banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="javascript:;"><img src="images/banner/1.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="javascript:;"><img src="images/banner/2.png" alt=""></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <ul class="b-nav">
+                    <li><a href=""><img src="images/icon/icon_03.png" alt=""><p>坚果 Pro</p></a></li>
+                    <li><a href=""><img src="images/icon/icon_04.png" alt=""><p>服装</p></a></a></li>
+                    <li><a href=""><img src="images/icon/icon_05.png" alt=""><p>"足迹系列"</p></a></a></li>
+                    <li><a href=""><img src="images/icon/icon_06.png" alt=""><p>保险</p></a></a></li>
+                    <li><a href=""><img src="images/icon/icon_07.png" alt=""><p>以旧换新</p></a></a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>热门商品<a href=""></a></h2>
+                <div class="swiper-container swiper-commodity">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-02.png" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-03.jpg" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-04.jpg" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-05.png" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-06.png" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="images/commodity/com-07.jpg" alt=""></a>
+                            <h3>卫衣 大爆炸</h3>
+                            <p class="desc">风格简洁、舒适服帖</p>
+                            <p class="price">￥249.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>热销机型<a href=""></a></h2>
+                <a href="" class="commodity">
+                    <img src="images/commodity/com-01.png" alt="">
+                    <h3>坚果 Pro
+                        <ul>
+                            <li>32G</li>
+                            <li>64G</li>
+                            <li>128G</li>
+                        </ul>
+                    </h3>
+                    <p class="desc"> Qualcomm 骁龙™625/626 处理器 · 4GB 大内存 · 1300 万像素 </p>
+                    <p class="price">1599.00<del> ￥ 1799.00</del></p>
+                </a>
+            </section>
+
+            <section>
+                <a href=""><img src="images/commodity/com-08.png" alt=""></a>
+                <a href=""><img src="images/commodity/com-09.png" alt=""></a>
+            </section>
+
+            <section>
+                <h2>官方精选<a href=""></a></h2>
+                <ul class="off-wrap">
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-10.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-11.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-12.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-13.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-14.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                    <li class="hot-com">
+                        <a href="">
+                            <img src="images/commodity/com-15.jpg" alt="">
+                            <h3>大促销</h3>
+                            <p class="desc">买一送一，还包邮</p>
+                            <p class="price">￥99.00</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- 开始  网页底部 -->
+        <footer>
+            <a href=""><img src="images/footer/1.png" alt=""><span>主页</span></a>
+            <a href=""><img src="images/footer/2.png" alt=""><span>设置</span></a>
+            <a href=""><img src="images/footer/3.png" alt=""><span>收藏</span></a>
+            <a href=""><img src="images/footer/4.png" alt=""><span>个人</span></a>
+        </footer>
+
+    </div>
+
+    
+    <script src='js/swiper-3.4.2.min.js'></script>
+
+
+    <!-- 轮播图 js部分 -->
+    <script> 
+        var bannerSwiper = new Swiper('.swiper-banner', {
+            autoplay: 3000,//可选选项，自动滑动
+            loop : true,
+            pagination : '.swiper-pagination'
+        })
+
+        var comSwiper = new Swiper('.swiper-commodity', {
+            slidesPerView : 3,
+            slidesPerGroup : 3,
+            //scrollbar : '.swiper-scrollbar'
+        })
+    </script>
+</body>
+</html>
